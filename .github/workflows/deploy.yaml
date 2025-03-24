@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    -name: cloning repo
-     uses: actions/checkout@v2
+    - name: cloning repo
+      uses: actions/checkout@v2
 
     - name: Set up Java version
       uses: actions/setup-java@v1
